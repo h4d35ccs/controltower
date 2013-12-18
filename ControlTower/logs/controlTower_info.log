@@ -1,0 +1,164 @@
+ INFO | 18/Dec/2013 09:42:13,312 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,341 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,350 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,351 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,352 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,358 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,359 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,359 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,363 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,366 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,367 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,367 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,368 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,369 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,370 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,371 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,391 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,392 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,397 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,398 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,402 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,405 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,405 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,407 | Plane.java:180 | Plane:AA-1 called for parking
+ INFO | 18/Dec/2013 09:42:13,411 | Plane.java:185 | Plane:AA-1 park
+ INFO | 18/Dec/2013 09:42:13,412 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,413 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,414 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,415 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,419 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,420 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,421 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,422 | ControlTowerDefault.java:120 | the aircraft with id: AA-2 was removed from the landing field no: 1
+ INFO | 18/Dec/2013 09:42:13,424 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,425 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,428 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,429 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,440 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,443 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,444 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ERROR | 18/Dec/2013 09:42:13,448 | ControlTowerDefault.java:116 | The aircraft wasn't able to go to the parking queue because the aircraft  was not found on any landing field, aircraft id:AA-21
+ INFO | 18/Dec/2013 09:42:13,451 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,455 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,456 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,457 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,459 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,464 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,465 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,467 | Plane.java:180 | Plane:AA-1 called for parking
+ INFO | 18/Dec/2013 09:42:13,471 | Plane.java:185 | Plane:AA-1 park
+ INFO | 18/Dec/2013 09:42:13,472 | Plane.java:180 | Plane:AA-2 called for parking
+ INFO | 18/Dec/2013 09:42:13,473 | Plane.java:185 | Plane:AA-2 park
+ INFO | 18/Dec/2013 09:42:13,474 | Plane.java:129 | The aircraft :AA-1is ready to takeoff in field 0
+ INFO | 18/Dec/2013 09:42:13,481 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,486 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,497 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,498 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,502 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,505 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,510 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,511 | Plane.java:180 | Plane:AA-1 called for parking
+ INFO | 18/Dec/2013 09:42:13,512 | Plane.java:185 | Plane:AA-1 park
+ INFO | 18/Dec/2013 09:42:13,513 | Plane.java:180 | Plane:AA-2 called for parking
+ INFO | 18/Dec/2013 09:42:13,538 | Plane.java:185 | Plane:AA-2 park
+ INFO | 18/Dec/2013 09:42:13,539 | Plane.java:129 | The aircraft :AA-1is ready to takeoff in field 0
+ INFO | 18/Dec/2013 09:42:13,542 | Plane.java:129 | The aircraft :AA-2is ready to takeoff in field 1
+ INFO | 18/Dec/2013 09:42:13,544 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,544 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,545 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,549 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,549 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,552 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,559 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,560 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,566 | Plane.java:180 | Plane:AA-1 called for parking
+ INFO | 18/Dec/2013 09:42:13,567 | Plane.java:185 | Plane:AA-1 park
+ INFO | 18/Dec/2013 09:42:13,568 | Plane.java:78 | The aircraft :AA-4 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,571 | Plane.java:158 | The aircraft :AA-1can't prepare to takeoff, all fields occupy 
+ INFO | 18/Dec/2013 09:42:13,578 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,580 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,583 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,585 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,586 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,594 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,598 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,599 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,604 | Plane.java:103 | The aircraft :AA-4is back to the landing queue
+ INFO | 18/Dec/2013 09:42:13,607 | Airport.java:66 | Airport created with name: test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:13,610 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,611 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,615 | AircraftFactoryImp.java:33 | generating a PLANE
+ INFO | 18/Dec/2013 09:42:13,616 | Plane.java:78 | The aircraft :AA-1 has landed in 0at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,617 | Plane.java:78 | The aircraft :AA-2 has landed in 1at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,618 | Plane.java:78 | The aircraft :AA-3 has landed in 2at: Wed Dec 18 09:42:13 CET 2013
+ INFO | 18/Dec/2013 09:42:13,619 | Plane.java:180 | Plane:AA-1 called for parking
+ INFO | 18/Dec/2013 09:42:13,620 | Plane.java:185 | Plane:AA-1 park
+ INFO | 18/Dec/2013 09:42:13,627 | Plane.java:180 | Plane:AA-2 called for parking
+ INFO | 18/Dec/2013 09:42:13,627 | Plane.java:185 | Plane:AA-2 park
+ INFO | 18/Dec/2013 09:42:13,628 | Plane.java:129 | The aircraft :AA-1is ready to takeoff in field 0
+ INFO | 18/Dec/2013 09:42:13,633 | Plane.java:205 | Plane:AA-1 called for takeOff
+ INFO | 18/Dec/2013 09:42:13,638 | Plane.java:212 | Plane:AA-1 takeOff
+ INFO | 18/Dec/2013 09:42:36,401 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.airport.prefix
+ INFO | 18/Dec/2013 09:42:36,415 | ControlTowerUtils.java:197 | returns:airport
+ INFO | 18/Dec/2013 09:42:36,416 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.name.separator
+ INFO | 18/Dec/2013 09:42:36,417 | ControlTowerUtils.java:197 | returns:---
+ INFO | 18/Dec/2013 09:42:36,456 | Airport.java:66 | Airport created with name: Airport Test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:36,474 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.airport.prefix
+ INFO | 18/Dec/2013 09:42:36,476 | ControlTowerUtils.java:197 | returns:airport
+ INFO | 18/Dec/2013 09:42:36,477 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.name.separator
+ INFO | 18/Dec/2013 09:42:36,482 | ControlTowerUtils.java:197 | returns:---
+ INFO | 18/Dec/2013 09:42:36,483 | DaoFactory.java:46 | Airport DAO created
+ INFO | 18/Dec/2013 09:42:36,484 | ControlTowerUtils.java:150 | Object to serialize: es.upm.emse.softdesign.controltower.model.airport.Airport@1664f1a
+ INFO | 18/Dec/2013 09:42:36,485 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,498 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,570 | ControlTowerUtils.java:174 | Object serialized
+ INFO | 18/Dec/2013 09:42:36,573 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,582 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,597 | Airport.java:66 | Airport created with name: Airport Test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:36,600 | DaoFactory.java:46 | Airport DAO created
+ INFO | 18/Dec/2013 09:42:36,601 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,602 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,611 | ControlTowerUtils.java:150 | Object to serialize: es.upm.emse.softdesign.controltower.model.airport.Airport@686cea
+ INFO | 18/Dec/2013 09:42:36,612 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,615 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,628 | ControlTowerUtils.java:174 | Object serialized
+ INFO | 18/Dec/2013 09:42:36,632 | Airport.java:66 | Airport created with name: Airport Test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:36,636 | DaoFactory.java:46 | Airport DAO created
+ INFO | 18/Dec/2013 09:42:36,637 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,638 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,640 | ControlTowerUtils.java:78 | Object to get: airport---Airport Test
+ INFO | 18/Dec/2013 09:42:36,646 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,677 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,707 | ControlTowerUtils.java:92 | object load:es.upm.emse.softdesign.controltower.model.airport.Airport@1af0fcf
+ INFO | 18/Dec/2013 09:42:36,707 | AirportDAO.java:79 | Returning airport :Airport Test
+ INFO | 18/Dec/2013 09:42:36,715 | Airport.java:66 | Airport created with name: Airport Test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:36,716 | DaoFactory.java:46 | Airport DAO created
+ INFO | 18/Dec/2013 09:42:36,721 | Airport.java:66 | Airport created with name: ToDelete and landing fields: 10
+ INFO | 18/Dec/2013 09:42:36,722 | ControlTowerUtils.java:150 | Object to serialize: es.upm.emse.softdesign.controltower.model.airport.Airport@37153d
+ INFO | 18/Dec/2013 09:42:36,728 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,730 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,742 | ControlTowerUtils.java:174 | Object serialized
+ INFO | 18/Dec/2013 09:42:36,748 | ControlTowerUtils.java:349 | Object to delete: ToDelete
+ INFO | 18/Dec/2013 09:42:36,748 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,751 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,753 | ControlTowerUtils.java:360 | Object was not deleted, trying delete On Exit 
+ INFO | 18/Dec/2013 09:42:36,758 | AirportDAO.java:176 | object: ToDelete deleted
+ INFO | 18/Dec/2013 09:42:36,759 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,766 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,813 | Airport.java:66 | Airport created with name: Airport Test and landing fields: 3
+ INFO | 18/Dec/2013 09:42:36,814 | DaoFactory.java:46 | Airport DAO created
+ INFO | 18/Dec/2013 09:42:36,819 | Airport.java:66 | Airport created with name: new1 and landing fields: 10
+ INFO | 18/Dec/2013 09:42:36,820 | Airport.java:66 | Airport created with name: new2 and landing fields: 10
+ INFO | 18/Dec/2013 09:42:36,825 | ControlTowerUtils.java:150 | Object to serialize: es.upm.emse.softdesign.controltower.model.airport.Airport@53033e
+ INFO | 18/Dec/2013 09:42:36,828 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,832 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,844 | ControlTowerUtils.java:174 | Object serialized
+ INFO | 18/Dec/2013 09:42:36,852 | ControlTowerUtils.java:150 | Object to serialize: es.upm.emse.softdesign.controltower.model.airport.Airport@eb607d
+ INFO | 18/Dec/2013 09:42:36,853 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,855 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,864 | ControlTowerUtils.java:174 | Object serialized
+ INFO | 18/Dec/2013 09:42:36,870 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,872 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/
+ INFO | 18/Dec/2013 09:42:36,909 | ControlTowerUtils.java:191 | property name: controltower.properties property key:serialized.object.folder
+ INFO | 18/Dec/2013 09:42:36,915 | ControlTowerUtils.java:197 | returns:/home/AMT/workspace/ControlTower/savedObjects/

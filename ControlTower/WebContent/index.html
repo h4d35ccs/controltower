@@ -1,0 +1,186 @@
+<!-- Template and UI of the ControlTowerresources -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Control Tower System</title>
+        <!-- JS -->
+        <!-- library JS -->
+        <script src="resources/js/jQueryLib/jquery-1.9.1.js"></script>
+        <script src="resources/js/jQueryLib/jquery-ui-1.10.2.custom.js"></script>
+        <script src="resources/js/jQueryLib/jquery-validation.js"></script>
+        <script src="resources/js/bootstrap.js"></script>
+        
+        <!-- Control Tower JS -->
+        <script src="resources/js/globalfunctions.js"></script>
+        <script src="resources/js/control.modules.js"></script>
+        <script src="resources/js/gui.js"></script>
+        
+        
+        <!-- CSS -->
+        <!-- library CSS -->
+        <link href="resources/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="resources/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+        <link href="resources/css/redmond/jquery-ui-1.10.2.custom.css" rel="stylesheet" media="screen">
+        
+        <!-- Project CSS -->
+        <link href="resources/css/styles.css" rel="stylesheet" media="screen">
+        
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="resources/img/plane-icon.png">
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    	<!-- title bar -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="">
+                        <img src="resources/img/plane-icon.png" alt="plane-icon" />
+                        Control Tower System
+                    </a>
+                   	
+                   	<a href="#airport_creator_container" id="button_add_airport" name="button_add_airport"  role="button" class="btn btn-primary" data-toggle="modal">Create New Airport</a>
+					
+					<div id="airport_list_select" class="btn-group separator_left">
+                      <button class="btn btn-primary" id="btn_selected_airport">Choose an Airport</button>
+					  <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+						<span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu">
+					  </ul>
+					</div>
+					
+                </div>
+            </div>
+        </div>
+        <!-- airport creator container -->
+	<div id="airport_creator_container" class="modal hide fade airport_creator">
+		<form action="" id="create_aircraft_form" name="create_aircraft_form" class=".create_aircraft_form">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h3>Create New Airport</h3>
+			</div>
+		
+			<div class="modal-body">
+				<div class="center">
+					<span class="label label-important">All fields are required</span>			
+				</div>
+				<div>
+					<label class="labels">* Name:</label>
+					<input type="text" id="airport_name" name="airport_name"/>
+				</div>
+				<div>
+					<label class="labels">* Number of Tracks:</label>
+					<div class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="selected_track_value">1<b class="caret"></b></a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+							<li><a href="#" id="dropdown_track_value_1">1</a></li>
+							<li><a href="#" id="dropdown_track_value_2">2</a></li>
+							<li><a href="#" id="dropdown_track_value_3">3</a></li>
+							<li><a href="#" id="dropdown_track_value_4">4</a></li>
+							<li><a href="#" id="dropdown_track_value_5">5</a></li>
+						</ul>
+					</div>
+				</div>			
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal">Close</button>
+				<a href="#" class="btn btn-success" id="btn_save">Save</a>
+			</div>
+		</form>
+	</div>
+	<!-- end airport creator container -->
+        
+        <!-- airport loader container -->
+        <div class="container-fluid" id="airport_container_loader">
+       	    <div id="myCarousel" class="carousel slide">
+			    <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    </ol>
+			    <!-- Carousel items -->
+			    <div class="carousel-inner">
+				    <div class="active item">
+				    	<img alt="image-plane1" src="resources/img/loader1.png">
+				    </div>
+				    <div class="item">
+				    	<img alt="image-plane2" src="resources/img/loader2.png">
+				    </div>
+			    </div>
+			    <!-- Carousel nav -->
+			    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		    </div>
+        </div>
+        <!-- airport container -->
+        <div class="container-fluid" id="airport_container">
+            <div class="row-fluid content_container_header">
+                <div class="span12 well well-large center" id="sky">
+                    <div class="alert alert-info">
+                    	<img alt="radar" src="resources/img/radar-icon.png">
+                        <strong id="arrival_line_title">Airport Radar Arrival Line</strong>
+                    </div>
+                    <!-- ul used to load the planes from js file -->
+                    <ul id="arrivals" class="nav nav-pills"></ul>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span4 well control_tower_background">
+                    <div class="alert alert-info center">
+                        <img alt="tower" src="resources/img/tower-icon.png">
+                        <strong id="controlTower_label">Control Tower</strong>
+                    </div>
+                    <div class="button_list_radar center">
+                    	<button id="button_add" name="button_add" type="button" class="btn btn-primary" ><i class="icon-plus icon-white"></i> Add Plane </button>
+                        <button id="button_remove" name="button_remove" type="button" class="btn btn-danger" ><i class="icon-remove icon-white"></i> Remove Plane</button>
+                    </div>
+                    <div class="button_list_ops center">    
+                        <button id="button_land" name="button_land" type="button" class="btn btn-inverse" ><i class="icon-arrow-down icon-white"></i> Land Plane</button>
+                        <button id="button_park" name="button_park" type="button" class="btn btn-info" ><i class="icon-home icon-white"></i> Park Plane</button>
+                    </div>
+                    <div class="button_list_take_off center">
+                    	<button id="button_ready" name="button_ready" type="button" class="btn btn-warning" ><i class="icon-road icon-white"></i> Ready for Take off</button>
+                    	<button id="button_takeoff" name="button_takeoff" type="button" class="btn btn-success" ><i class="icon-arrow-up icon-white"></i> Take off Plane</button>
+                    </div>
+                </div>
+                <div class="span8 well well-large tracks_background">
+                	<div class="alert alert-info center">
+                        <img alt="info" src="resources/img/plane-icon2.png">
+                        <strong id="airport_name_label">Test Airport</strong>
+                    </div>
+                    <!-- Landing field container to load the tracks from js file according to the airport object values -->
+                    <div id="landingFieldsContainer"></div> 
+                </div>
+                
+            </div>
+            <div class="row-fluid">
+            	<div class="span12 well well-large parking_background"> 
+                	<div class="alert alert-info center">
+                        <img alt="park" src="resources/img/parking-icon.png">
+                        <strong id="parking_name">Parking</strong>
+                    </div>
+                        <!-- Parking container to put the planes that have landed on the airport -->
+                    <div id="ParkingContainer">
+                    	<ul id="parking_spots" class="nav nav-pills parking_spots"></ul>
+                    </div> 
+                 </div>
+            </div>
+        </div>
+        <!-- footer -->
+         <div class="container-fluid">
+            <div class="row-fluid">
+                  <div class="footer center">
+                       <span>&copy; Rights Reserved 2013 </span><br/>
+                       <span>Developed by: Otto Abreu, Jonathan Araujo, Esteban Angulo, Denis Knöpfle</span>
+                   </div>
+              </div>
+        </div>
+    </body>
+</html>
