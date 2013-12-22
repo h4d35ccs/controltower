@@ -148,7 +148,19 @@
 				<artifactId>spock-maven</artifactId> <version>0.6-groovy-1.8</version> <executions> 
 				<execution> <goals> <goal>find-specs</goal> </goals> </execution> </executions> 
 				</plugin> -->
-		</plugins>
 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.9</version>
+				<configuration>
+					<noqualifier>all</noqualifier>
+					<reportOutputDirectory>
+						/Applications/MAMP/htdocs/controltower
+					</reportOutputDirectory>
+					<destDir>api</destDir>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
