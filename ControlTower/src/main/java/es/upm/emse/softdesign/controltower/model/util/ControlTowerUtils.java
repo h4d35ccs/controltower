@@ -325,7 +325,7 @@ public final class ControlTowerUtils {
 			// because the generated exception, by default the original
 			// exception msg will be the msg
 			logger.error(
-					"Can´t generate the error message property or key not found",
+					"Can't generate the error message property or key not found",
 					e1);
 			if (e != null) {
 				errorMsg = e.getMessage();
