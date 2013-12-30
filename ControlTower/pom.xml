@@ -78,12 +78,12 @@
 		</dependency>
 	</dependencies>
 	<build>
-	<plugins>
-		<plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.1</version>
-                <configuration>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
 					<url>http://localhost:8080/manager/text</url>
 					<server>TomcatServer</server>
 					<path>/controltower</path>
@@ -159,6 +159,26 @@
 					<noqualifier>all</noqualifier>
 					<reportOutputDirectory>/var/www/html/controltower</reportOutputDirectory>
 					<destDir>api</destDir>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>es.upm.emse.softdesign.controltower.documentationmaker.JavasphinxMaker</mainClass>
+					<arguments>
+						<argument>./sphinxdoc/create_dev_doc.sh</argument>
+						<argument>./sphinxdoc/publishDocs.sh /var/www/html/controltower/sphinx </argument>
+					</arguments>
 				</configuration>
 			</plugin>
 		</plugins>
